@@ -1,0 +1,38 @@
+A = [['a', 'b'], 
+	['a', 'c'], 
+	['a', 'd'],
+
+	['b', 'a'], 
+	['b', 'c'], 
+	['b', 'd'], 
+
+	['c', 'a'], 
+	['c', 'b'],
+	['c', 'd'], 
+	['c', 'e'],
+	['c', 'f'],
+
+	['d', 'a'], 
+	['d', 'c'],
+	['d', 'f'],
+
+	['e', 'b'],
+	['e', 'c'],
+	['e', 'f'], 
+
+	['g', 'e'], 
+	['g', 'f']
+]
+def N(A, node): 
+	nArray = []
+	for i in range(0, len(A)):
+		if A[i][0] == node:
+			nArray.append(A[i])
+	return nArray
+
+
+
+
+
+
+print(N(A, 'c'))

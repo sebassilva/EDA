@@ -1,0 +1,6 @@
+1) Bubble Sort con impresión de numero de pasadas y en orden inverso (De menor a mayor)
+
+2) Buuble Sort Optimizado con Bandera -- Impresión con número de pasadas y en orden inverso.
+
+3) Merge Sort -- Mostrar secuencias divididas y en orden inverso
+
