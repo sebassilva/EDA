@@ -5,7 +5,7 @@
 
 - [ ] Iván: 4, 5, 6, A
 
-- [ ] Armando: 7, 8, 9, B
+- [x] Armando: 7, 8, 9, B
 
 - [ ] Ceci: 10, 11, 12
 ###Observaciones: 
