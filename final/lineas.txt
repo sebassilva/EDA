@@ -1,5 +1,3 @@
-﻿LINEA
-1
 observatorio,tacubaya
 tacubaya,juanacatlan
 juanacatlan,chapultepec
@@ -19,8 +17,7 @@ balbuena,boulevardpuertoaereo
 boulevardpuertoaereo,gomezfarias
 gomezfarias,zaragoza
 zaragoza,pantitlan
-LINEA
-2
+
 cuatrocaminos,panteones
 panteones,tacuba
 tacuba,cuitlahuac
@@ -43,9 +40,8 @@ villadecortes,nativitas
 nativias,portales
 portales,ermita
 ermita,generalanaya
-generalanaya,tasqueña
-LINEA
-3
+generalanaya,tasquena
+
 indiosverdes,deportivo18demarzo
 deportivo18demarzo,potrero
 potrero,laraza
@@ -66,8 +62,7 @@ coyoacan,viverosderechoshumanos
 viverosderechoshumanos,miguelangeldequevedo
 miguelangeldequevedo,copilco
 copilco,universidad
-LINEA
-4
+
 martincarrera,talisman
 talisman,bondojito
 bondojito,consulado
@@ -77,8 +72,7 @@ morelos,candelaria
 candelaria,frayservando
 frayservando,jamaica
 jamaica,santaanita
-LINEA
-5
+
 politecnico,institutodelpetroleo
 institutodelpetroleo,autobusesdelnorte
 autobusesdelnorte,laraza
@@ -91,8 +85,7 @@ aragon,oceania
 oceania,terminalaerea
 terminalaerea,hangares
 hangares,pantitlan
-LINEA
-6
+
 martincarrera,lavilla-basilica
 lavilla-basilica,deportivo18demarzo
 deportivo18demarzo,lindavista
@@ -103,8 +96,7 @@ norte45,ferreria
 ferreria,azcapotzalco
 azcapotzalco,tezozomoc
 tezozomoc,elrosario
-LINEA
-A
+
 lapaz,losreyes
 losreyes,santamarta
 santamarta,acatitla
@@ -114,8 +106,7 @@ guelatao,tepalcates
 tepalcates,canaldesanjuan
 canaldesanjuan,agricolaoriental
 agricolaoriental.pantitlan
-LINEA
-7
+
 barrancadelmuerto,mixcoac
 mixcoac,snantonio
 snantonio,snpedrodelospinos
@@ -129,8 +120,7 @@ tacuba,refineria
 refineria,camarones
 camarones,aquilesserdan
 aquilesserdan,elrosario
-LINEA
-8
+
 constde1917,uam1
 uam1,cdelaestrella
 cdelaestrella,iztapalapa
@@ -149,8 +139,7 @@ doctores,saltodelagua
 saltodelagua,sanjuandeletran
 sanjuandeletran,bellasartes
 bellasartes,garibaldilagunilla
-LINEA
-9
+
 tacubaya,patriotismo
 patriotismo,chilpancingo
 chilpancingo,centromedico
@@ -162,8 +151,7 @@ mixiuhca,velodromo
 velodromo,ciudaddeportiva
 ciudaddeportiva,puebla
 puebla,pantitlan
-LINEA
-B
+
 buenavista,guerrero
 guerrero,garibaldilagunilla
 garibaldilagunilla,lagunilla
