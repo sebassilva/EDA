@@ -100,8 +100,8 @@ tezozomoc,elrosario
 lapaz,losreyes
 losreyes,santamarta
 santamarta,acatitla
-acatitla,peñonviejo
-peñonviejo,guelatao
+acatitla,penonviejo
+penonviejo,guelatao
 guelatao,tepalcates
 tepalcates,canaldesanjuan
 canaldesanjuan,agricolaoriental
