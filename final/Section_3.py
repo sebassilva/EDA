@@ -1,5 +1,5 @@
 def Read():
-	file_=open("list.txt","r")
+	file_=open("lista.txt","r")
 	content = file_.read()
 	content = content.split("\n")
 	file_.close()
@@ -25,8 +25,8 @@ def BinarySearch(A, item, start, end,i):
 
 Lista = Read()
 i=0
-index = BinarySearch(Lista,"conade",0,len(Lista),i)
+index = BinarySearch(Lista,"egipto",0,len(Lista),i)
 if index != False:
-	print ("Posicion:" ,index)
+	print ("Se encontro en la posicion:" ,index)
 else:
 	print ("El elemento no se encuentra en la lista")

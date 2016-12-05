@@ -1,12 +1,3 @@
-def createArray():
-    #Lee el archivo lineas.txt y lo pasa a un arreglo
-    lineasMetro = list()
-    with open('lineas.txt') as f:
-        for line in f:
-            line = line.splitlines()
-            if(line != ['']): #ignora los espacios en blanco
-                lineasMetro.append(line[0].split(',')) #crea la lista de listas 
-    return lineasMetro
 
 
 #BubbleSort Optimizado
@@ -43,10 +34,9 @@ def save(A):
 
 
 def actividad2():
-    lista = ["ivan", "eres", "un", "palabras", "al", "azar"]
-    listaOrdenada = bubbleSortOptimized(lista)
+    estaciones = ['balderas', 'cuauhtemoc', 'juarez', 'ninosheroes', 'saltodelagua', 'insurgentes', 'hidalgo', 'hospitalgeneral', 'doctores', 'isabellacatolica', 'sanjuandeletran', 'sevilla', 'bellasartes', 'guerrero', 'revolucion', 'centromedico', 'obrera', 'pinosuarez', 'chapultepec', 'alllende', 'garibaldilagunilla', 'buenavista', 'tlatelolco', 'sancosme', 'chilpancingo', 'etiopiaplazadelatransparencia', 'lazarocardenas', 'chabacano', 'merced', 'sanantonioabad', 'zocalo', 'juanacatlan', 'lagunilla', 'laraza', 'normal', 'patriotismo', 'eugenia', 'jamaica', 'laviga', 'viaducto', 'candelaria', 'allende', 'tacubaya', 'tepito', 'autobusesdelnorte', 'misterios', 'potrero', 'colegiomilitar', 'divisiondelnorte', 'frayservando', 'mixiuhca', 'santaanita', 'xola', 'morelos', 'sanlazaro', 'constituyentes', 'observatorio', 'snpedrodelospinos', 'institutodelpetroleo', 'vallegomez', 'deportivo18demarzo', 'popotla', 'zapata', 'velodromo', 'coyuya', 'villadecortes', 'canaldelnorte', 'floresmagon', 'moctezuma', 'auditorio', 'snantonio', 'lindavista', 'politecnico', 'vallejo', 'consulado', 'indiosverdes', 'lavilla-basilica', 'cuitlahuac', '20denoviembre', 'coyoacan', 'parquedelosvenados', 'ciudaddeportiva', 'iztacalco', 'nativitas', 'romerorubio', 'balbuena', 'polanco', 'mixcoac', 'norte45', 'bondojito', 'eduardomolina', 'martincarrera', 'tacuba', 'insurgentessur', 'viverosderechoshumanos', 'ejecentral', 'puebla', 'apatlaco', 'oceania', 'boulevardpuertoaereo', 'sanjoaquin', 'barrancadelmuerto', 'ferreria', 'talisman', 'aragon', 'panteones', 'refineria', 'miguelangeldequevedo', 'ermita', 'pantitlan', 'aculco', 'deportivooceania', 'terminalaerea', 'gomezfarias', 'azcapotzalco', 'cuatrocaminos', 'camarones', 'copilco', 'generalanaya', 'mexicaltzingo', 'portales', 'hangares', 'zaragoza', 'escuadron201', 'bosquedearagon', 'tezozomoc', 'aquilesserdan', 'universidad', 'tasquena', 'atlalilco', 'nativias', 'villadearagon', 'elrosario', 'iztapalapa', 'puebloculhuacan', 'nezahualcoyotl', 'cdelaestrella', 'esimeculhuacan', 'impulsora', 'uam1', 'tomatlan', 'riodelosremedios', 'constde1917', 'calle11', 'muzquiz', 'perifericoote', 'ecatepec', 'tezonco', 'olimpica', 'olivos', 'plazadearagon', 'nopalera', 'ciudadazteca', 'zapotitlan', 'tlatenco', 'tlahuac']
+    listaOrdenada = bubbleSortOptimized(estaciones)
     save(listaOrdenada)
-    print "Lista ordenada: " + str(listaOrdenada)
 
 actividad2()
 

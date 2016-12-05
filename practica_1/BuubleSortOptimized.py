@@ -1,5 +1,5 @@
 #BubbleSort Optimizado
-def bubbleSortOptimized(A):
+def BubbleSort(A):
     n = len(A)
     i = 1
     flag = True
@@ -9,7 +9,7 @@ def bubbleSortOptimized(A):
         print "Pasada: " + str(i)
         for j in range(0, n-i-1):
             print(A)
-            if A[j] < A[j+1]:
+            if A[j] > A[j+1]:
                 temp = A[j]
                 A[j] = A[j+1]
                 A[j+1] = temp
@@ -19,7 +19,7 @@ def bubbleSortOptimized(A):
     return A
 
 
-lista = [3, 0, 2, 2, 6, 2, 9, 8]
-listaOrdenada = bubbleSortOptimized(lista)
+lista = ["balderas", "cuauhtemc", "juarez", "hidalgo", "ninosheroes"]
+listaOrdenada = BubbleSort(lista)
 print "Lista ordenada: " + str(listaOrdenada)
 
