@@ -7,4 +7,4 @@ def linearSearch(A, item):
 
 
 Lista = ['hola', 'como', 'estas', 'she', 'said', 'konichiwa']
-print(linearSearch(Lista, 'pene'))
+print(linearSearch(Lista, 'hola'))
