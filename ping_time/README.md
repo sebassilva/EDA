@@ -1,2 +1,2 @@
-Installation:
-#You should have installed matplotlib ;)
+#Installation:
+You should have installed matplotlib ;)
